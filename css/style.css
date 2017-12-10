@@ -1,0 +1,27 @@
+body{
+    background:  #19820B;
+    font-family: "sans-serif", Lato;
+    color: #291f1a;
+    font-weight: 300;
+    
+}
+
+#main-nav ul {
+    width: 100%;
+    display: inline-block;
+    list-style-type: none;
+    position:fixed;
+    background-color: #ffffff;
+    right: 0px;
+    
+}
+
+#main-nav ul>li>a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+}
+
+#main-nav ul>li> a:hover {
+    color: #291f1a;
+}
