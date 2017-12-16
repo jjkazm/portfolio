@@ -74,6 +74,70 @@
 
     <!--  Umiejetnosci - end -->
 
+    <!-- Portfolio - start -->
+    <section id="portfolio">
+         <h2>Moje <span style="color: #1ac056">portfolio</span></h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item" id="portfolio-item-1">
+                <div class="item-mask">
+                    <div class="item-content">
+                        <div class="item-content-inner">
+                            <h3></h3>
+                            <p></p>
+                            <h4></h4>
+                            <p></p>
+                            <link rel="stylesheet" href="">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="portfolio-item" id="portfolio-item-2"></div>
+            <div class="portfolio-item" id="portfolio-item-3"></div>
+        </div>)
+    </section>
+
+    
+    Wewnątrz .portfolio-item tworzymy kontener div z klasą .item-mask której nadajemy background rgba(42, 61, 79, 0.8), 100% wysokości i szerokości oraz opacity: 0 – nadajemu mu pozycję absolutną i przywracamy z font-size: initial Na .item-mask towrzymy efekt hover, gdzie dodajemy opacity: 1 Tworzymy na hover efekt transition: all 0.3s ease-in-out; Zagnieżdzamy kolejny kontener div.item-content nadajemy mu border: 1px solid #fff, margin 10px, wysokość 330px oraz pozcyję relatywną Tworzymy jeszcze jeden zagnieżdżony kontener .item-content-inner w który będziemy pozycjonować właściwą treść, czyli nagłówek h3, p (paragraf), nagłówek h4 i (kolejny paragraf) p oraz link z font awesome fa-link W .item-content-inner pozycjonujemy treść – pozycja absolutna, top: 50%, transform: translateY(-50%), left i right 0, padding: 5px Cała treść ma domyślnie kolor #fff, natomiast link po hover ma kolor #1ac056
+
+
+    <!-- Portfolio - end-->
+    <!--  Kontakt - start -->
+    <section id="contact">
+        <h2>Jakub <span style="color: #1ac056">Kazmierczak</span></h2>
+        <div class="contact-data">
+            <address>ul. Filtrowa 75<br>02-585 Warszawa<br><br>tel: 669 124 164<br>e-mail: <a href="kazmierczak88@gmail.com" style="color:#1ac056">kazmierczak88@gmail.com</a> 
+            <div class="contact-social-icons">
+                <a href="https://facebook.com" class="fa fa-facebook" aria-hidden="true"></a>
+                <a href="https://gmail.com" class="fa fa-google" aria-hidden="true"></a>
+                <a href="https://twitter.com"class="fa fa-twitter" aria-hidden="true"></a>
+                <a href="https://linkedin.com"class="fa fa-linkedin" aria-hidden="true"></a>
+            </div>
+            </address>
+            Linkom z ikonami social mediów (znacznik a) nadajemy style – display: inline-block, wysokość i szerokość 38px; prawy margines 30px; wysokość linii 38px, wyrównanie tekstu do środka, border: 1px solid #fff; wielkość czcionki 22px
+Do linków dodajemy efekt hover zmieniający ramkę i kolor cionki na #213b50 oraz tło na #fff
+Dla kontenera .contakt-form nadajemy margines górny 100px
+Stylujemy pola formularza nadając im 100% szerokości, padding 15px, margines dolny 15px; ramkę w kolorze #2b4a64 i rozmiarze 0, kolor tła #2b4a64
+Pola formularza w stanie focus powinny mieć tło #426684 
+input submit przyjmuje szerokość automatyczną, padding 15px 30px; float: right; text-transform: uppercase, border 1px solid #1ac056, kolor tła #1ac056, color #fff, waga czcionki 600
+do submit dodajemy efekt hover gdzie zmieniamy tło na #fff, color na #1ac056
+Robimy commit i push
+
+        </div>
+        <div class="contact-form">
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Imie i nazwisko">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <label for="msg"></label>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Tekst wiadomosci"></textarea>
+            <input type="submit" value="Wyslij">
+        </div>
+    </section>
+    <!--  Kontakt - end -->
+
+
+
 </body>
 
 </html>

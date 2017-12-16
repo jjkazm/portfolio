@@ -1,7 +1,7 @@
 /* General styles - start */
 
 * {
-    
+
     box-sizing: border-box;
 }
 
@@ -94,12 +94,14 @@ div.main-header-content {
     border-bottom: 10px groove gainsboro;
 
 }
+
 #about > h2 {
     font-size: 30px;
     font-weight: 300;
     margin-top: 60px;
     margin-bottom 35px;
 }
+
 #about > figure {
     position: relative;
     max-width: 50%;
@@ -107,12 +109,14 @@ div.main-header-content {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
-    float: left; 
+    float: left;
 }
+
 #about > figure > img {
     max-height: 350px;
     max-width: 100%;
 }
+
 #about > article {
     width: 50%;
     margin: 0;
@@ -123,16 +127,102 @@ div.main-header-content {
 /*O mnie - end*/
 
 /* Umiejetnosci - start */
+
 #skills > h2 {
     text-align: center;
 }
+
 #skills > p {
     text-align: center;
 }
+
 #skills #skills-icons > figure {
     display: inline-block;
     text-align: center;
 }
 
-
 /* Umiejetnosci - end */
+
+/* Portfolio - start */
+
+.portfolio-items{
+    text-align: 0;
+    font-size: 0;
+}
+
+.portfolio-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 33.3333%;
+    position: relative;
+}
+
+.portfolio-items #portfolio-item-1{
+    background-image: url("../img/portfolio1.jpg");
+   }
+.portfolio-items  #portfolio-item-2{
+    background-image: url("../img/portfolio2.jpg");
+}
+.portfolio-items #portfolio-item-3{
+    background-image: url("../img/portfolio3.jpg");
+}
+
+.
+
+
+outline offset-1
+/* Portfolio -end */
+
+/* Kontakt - start */
+
+#contact {
+    background-color: #213b50;
+    color: #fff;
+    overflow: hidden;
+}
+
+#contact > h2 {
+    text-align: left;
+}
+
+#contact > div {
+    width: 50%;
+    float: left;
+}
+
+#contact .contact-data > address {
+    font-style: normal;
+    line-height: 25px;
+    margin: 72px 0;
+}
+
+#contact .contact-data > address > a {
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    margin-right: 30px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 22px;
+    
+}
+
+#contact .contact-form {
+    margin-top: 100px;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding 15px;
+    margin-bottom: 15px;
+    border: #2b4a64 0px;
+    background-color: #2b4a64;
+}
+
+
+/* Kontakt - end */
